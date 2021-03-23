@@ -50,7 +50,7 @@ a:hover {
     background: #B2D6FF;
     border-radius: 5px;
     padding-top: 60px;
-
+    border: 1px solid red;
     position: absolute;      /* Add these */
     top: -25px;
     left: -30px;
