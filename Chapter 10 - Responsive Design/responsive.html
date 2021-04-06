@@ -11,7 +11,15 @@
 <div class='page'>
     <div class='section menu'></div>
     <div class='section header'>
-        <img src='images/header.svg' alt=""/>
+        <div class='photo'>
+            <picture>
+                <source media='(min-width: 401px)'
+                        srcset='images/photo-big.jpg'/>
+                <source media='(max-width: 400px)'
+                        srcset='images/photo-tall.jpg'/>
+                <img src='images/photo-small.jpg' alt=""/>
+            </picture>
+        </div>
     </div>
     <div class='section content'>
         <div class='illustration'>
@@ -22,11 +30,10 @@
         </div>
     </div>
     <div class='section sign-up'>
-        <img src='images/sign-up.svg' alt=""/>
+        <a class="button" href="" onclick="return false;">Link</a>
     </div>
     <div class='section feature-1'>
         <img src='images/feature.svg' alt=""/>
-        <p>peepee</p>
     </div>
     <div class='section feature-2'>
         <img src='images/feature.svg' alt=""/>

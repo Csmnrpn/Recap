@@ -12,6 +12,7 @@
 .illustration img{
     width: 100%;
     display: block;
+    background-color: #5995DA;
 }
 
 .section {
@@ -50,6 +51,42 @@
 
 .feature-3 {
     background-color: #C8C6FA;
+}
+
+.header {
+    height: auto;
+    justify-content: inherit;
+    align-items: inherit;
+}
+
+.photo img {
+    width: 100%;
+    display: block;
+}
+
+.button:link,
+.button:visited {
+    color: #FFF;
+    background-color: #5995DA;
+    text-decoration: none;
+    border: 2px solid #5d6063;
+    text-align: center;
+    padding: 20px;
+    width: 200px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button:hover,
+.button:visited:hover {
+    background-color: #76AEED;
+}
+
+.button:active,
+.button:visited:active {
+    background-color: #5995DA;
+    width: 205px;
+    padding: 25px;
 }
 
 @media only screen and (max-width: 400px) {
